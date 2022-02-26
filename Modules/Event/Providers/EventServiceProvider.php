@@ -1,23 +1,21 @@
 <?php
 
-namespace Modules\Blog\Providers;
+namespace Modules\Event\Providers;
 
 use Illuminate\Support\ServiceProvider;
-
-
 use Illuminate\Database\Eloquent\Factory;
 
-class BlogServiceProvider extends ServiceProvider
+class EventServiceProvider extends ServiceProvider
 {
     /**
      * @var string $moduleName
      */
-    protected $moduleName = 'Blog';
+    protected $moduleName = 'Event';
 
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'blog';
+    protected $moduleNameLower = 'event';
 
     /**
      * Boot the application events.
